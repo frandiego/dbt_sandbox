@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: postgres
+    schema: raw
+    tables:
+      - name: order_products
+      - name: products
+      - name: aisles

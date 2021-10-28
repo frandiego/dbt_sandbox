@@ -1,0 +1,6 @@
+.user.yml
+venv
+*.json
+*.log
+*.gpickle
+*.html

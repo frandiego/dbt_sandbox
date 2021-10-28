@@ -1,0 +1,21 @@
+demo:
+  target: model
+  outputs:
+    raw:
+      type: postgres
+      host: 127.0.0.1
+      port: 5432
+      user: data
+      password: beers
+      dbname: postgres
+      schema: raw
+      threads: 1 
+    model:
+      type: postgres
+      host: 127.0.0.1 
+      port: 5432
+      user: data
+      password: beers
+      dbname: postgres
+      schema: model
+      threads: 1 

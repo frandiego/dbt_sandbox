@@ -1,0 +1,10 @@
+name: instacart
+version: 1.0.0
+config-version: 2
+
+profile: "demo"
+
+source-paths: ["models"]
+macro-paths: ["macros"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"] 

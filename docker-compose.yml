@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+    database:
+        image: postgres
+        container_name: database
+        restart: always
+        environment:
+          POSTGRES_USER: data
+          POSTGRES_PASSWORD: beers
+          POSTGRES_DB: instacart
+        ports:
+          - 5432:5432
+
+
