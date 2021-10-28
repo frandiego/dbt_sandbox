@@ -1,4 +1,4 @@
-# dbt_tutorial
+# dbt_sandbox
 
 ### Dependencies
 - docker & docker-compose (it is not necessary to create the database in any other way)
