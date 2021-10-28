@@ -7,7 +7,7 @@ venv: requirements.txt
 	@python3 -m venv venv;
 	@echo "--INSTALLING dependencies--";
 	@. venv/bin/activate; 
-	@pip install -r requirements.txt;
+	@pip install dbt-postgres==0.21.0;
 
 
 load_data: venv
